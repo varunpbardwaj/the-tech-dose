@@ -17,7 +17,7 @@
     }
   },
   "latestPosts": [
-{
+    {
     "slug": "beyond-autocomplete-ai-agentic-programming",
     "category": "Artificial Intelligence",
     "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
@@ -33,6 +33,6 @@
       "photoUrl": "https://unsplash.com/photos/a-group-of-white-robots-sitting-on-top-of-laptops-2iUrK025cec",
       "profileUrl": "https://unsplash.com/@coopery"
     }
-  
+  }
   ]
 }
