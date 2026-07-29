@@ -50,6 +50,23 @@
         "photoUrl": "https://unsplash.com",
         "profileUrl": "https://unsplash.com"
       }
+    },
+    {
+      "slug": "the-ai-bubble-a-trillion-dollar-bet-on-the-future",
+      "category": "Artificial Intelligence",
+      "title": "The AI Bubble: A Trillion-Dollar Bet on the Future",
+      "description": "How the AI infrastructure boom is reshaping data centers, chips, energy, and the global technology economy.",
+      "publishedAt": "2026-07-30",
+      "readTime": "10 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/the-ai-bubble-a-trillion-dollar-bet-on-the-future.mdx",
+      "coverImage": "https://images.unsplash.com/photo-cable-network-M5tzZtFCOfs?q=80&w=2234&auto=format&fit=crop",
+      "imageAlt": "A network of cables representing the infrastructure powering modern computing and artificial intelligence systems",
+      "imageCredit": {
+        "name": "Taylor Vick",
+        "photoUrl": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs",
+        "profileUrl": "https://unsplash.com"
+      }
     }
   ]
 }
