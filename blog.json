@@ -1,1 +1,23 @@
-
+{
+  "featuredPost": {
+    "slug": "beyond-autocomplete-ai-agentic-programming",
+    "category": "Artificial Intelligence",
+    "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
+    "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
+    "publishedAt": "2026-07-29",
+    "readTime": "8 min read",
+    "author": "Varun Bardwaj",
+    "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx"
+  },
+  "latestPosts": [
+    {
+      "slug": "beyond-autocomplete-ai-agentic-programming",
+      "category": "Artificial Intelligence",
+      "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
+      "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
+      "publishedAt": "2026-07-29",
+      "readTime": "8 min read",
+      "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx"
+    }
+  ]
+}
