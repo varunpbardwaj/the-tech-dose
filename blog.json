@@ -4,7 +4,7 @@
     "category": "Artificial Intelligence",
     "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
     "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
-    "publishedAt": "2026-07-29",
+    "publishedAt": "2026-07-30",
     "readTime": "8 min read",
     "author": "Varun Bardwaj",
     "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
@@ -18,11 +18,28 @@
   },
   "latestPosts": [
       {
+        "slug": "beyond-chatbots-generative-ai-ai-agents-agentic-ai",
+        "category": "Artificial Intelligence",
+        "title": "Beyond Chatbots: Understanding Generative AI, AI Agents, and Agentic AI",
+        "description": "A guide to understanding the evolution of artificial intelligence, from content creation with Generative AI to autonomous workflows powered by AI Agents and Agentic AI systems.",
+        "publishedAt": "2026-07-30",
+        "readTime": "10 min read",
+        "author": "Varun Bardwaj",
+        "contentPath": "ai/beyond-chatbots-generative-ai-ai-agents-agentic-ai.mdx",
+        "coverImage": "https://images.unsplash.com/photo-1718241905696-cb34c2c07bed?q=80&w=1856",
+        "imageAlt": "A close-up view of a keyboard representing artificial intelligence, programming, and modern technology",
+        "imageCredit": {
+          "name": "Unsplash",
+          "photoUrl": "https://unsplash.com/photos/a-black-keyboard-with-a-blue-button-on-it-kECRXz0m42A",
+          "profileUrl": "https://unsplash.com"
+        }
+      },
+      {
       "slug": "beyond-autocomplete-ai-agentic-programming",
       "category": "Artificial Intelligence",
       "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
       "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
-      "publishedAt": "2026-07-29",
+      "publishedAt": "2026-07-30",
       "readTime": "8 min read",
       "author": "Varun Bardwaj",
       "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
@@ -56,7 +73,7 @@
       "category": "Technology",
       "title": "The AI Bubble: A Trillion-Dollar Bet on the Future",
       "description": "How the AI infrastructure boom is reshaping data centers, chips, energy, and the global technology economy.",
-      "publishedAt": "2026-07-30",
+      "publishedAt": "2026-07-29",
       "readTime": "10 min read",
       "author": "Varun Bardwaj",
       "contentPath": "technology/the-ai-bubble-a-trillion-dollar-bet-on-the-future.mdx",
