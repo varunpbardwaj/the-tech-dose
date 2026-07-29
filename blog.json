@@ -33,6 +33,23 @@
         "photoUrl": "https://unsplash.com/photos/a-white-toy-with-a-black-nose-6UDansS-rPI",
         "profileUrl": "https://unsplash.com/@julientromeur"
       }
+    },
+    {
+      "slug": "why-great-developers-never-stop-learning",
+      "category": "Programming",
+      "title": "Why Great Developers Never Stop Learning",
+      "description": "The habits, fundamentals, and learning strategies that help developers grow throughout their careers.",
+      "publishedAt": "2026-08-05",
+      "readTime": "7 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "programming/why-great-developers-never-stop-learning.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A developer working with code on a computer",
+      "imageCredit": {
+        "name": "Unsplash",
+        "photoUrl": "https://unsplash.com",
+        "profileUrl": "https://unsplash.com"
+      }
     }
   ]
 }
