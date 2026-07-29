@@ -18,21 +18,21 @@
   },
   "latestPosts": [
     {
-    "slug": "beyond-autocomplete-ai-agentic-programming",
-    "category": "Artificial Intelligence",
-    "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
-    "description": "How AI coding agents are changing the way software is built.",
-    "publishedAt": "2026-07-29",
-    "readTime": "8 min read",
-    "author": "Varun Bardwaj",
-    "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
-    "coverImage": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=1600&h=900&q=85",
-    "imageAlt": "A group of white robots sitting on top of laptops",
-    "imageCredit": {
-      "name": "Mohamed Nohassi",
-      "photoUrl": "https://unsplash.com/photos/a-group-of-white-robots-sitting-on-top-of-laptops-2iUrK025cec",
-      "profileUrl": "https://unsplash.com/@coopery"
+      "slug": "beyond-autocomplete-ai-agentic-programming",
+      "category": "Artificial Intelligence",
+      "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
+      "description": "How AI coding agents are changing the way software is built.",
+      "publishedAt": "2026-07-29",
+      "readTime": "8 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A group of white robots sitting on top of laptops",
+      "imageCredit": {
+        "name": "Mohamed Nohassi",
+        "photoUrl": "https://unsplash.com/photos/a-group-of-white-robots-sitting-on-top-of-laptops-2iUrK025cec",
+        "profileUrl": "https://unsplash.com/@coopery"
+      }
     }
-  },
   ]
 }
