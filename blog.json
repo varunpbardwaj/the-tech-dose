@@ -8,30 +8,30 @@
     "readTime": "8 min read",
     "author": "Varun Bardwaj",
     "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
-    "coverImage": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=1600&h=900&q=85",
+    "coverImage": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?auto=format&fit=crop&w=1600&h=900&q=85",
     "imageAlt": "A group of white robots sitting on top of laptops",
     "imageCredit": {
-      "name": "Mohamed Nohassi",
-      "photoUrl": "https://unsplash.com/photos/a-group-of-white-robots-sitting-on-top-of-laptops-2iUrK025cec",
-      "profileUrl": "https://unsplash.com/@coopery"
+      "name": "julien Tromeur",
+      "photoUrl": "https://unsplash.com/photos/a-white-toy-with-a-black-nose-6UDansS-rPI",
+      "profileUrl": "https://unsplash.com/@julientromeur"
     }
   },
   "latestPosts": [
-    {
+      {
       "slug": "beyond-autocomplete-ai-agentic-programming",
       "category": "Artificial Intelligence",
       "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
-      "description": "How AI coding agents are changing the way software is built.",
+      "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
       "publishedAt": "2026-07-29",
       "readTime": "8 min read",
       "author": "Varun Bardwaj",
       "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
-      "coverImage": "https://images.unsplash.com/photo-1684369175809-f9642140a1bd?auto=format&fit=crop&w=1600&h=900&q=85",
+      "coverImage": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?auto=format&fit=crop&w=1600&h=900&q=85",
       "imageAlt": "A group of white robots sitting on top of laptops",
       "imageCredit": {
-        "name": "Mohamed Nohassi",
-        "photoUrl": "https://unsplash.com/photos/a-group-of-white-robots-sitting-on-top-of-laptops-2iUrK025cec",
-        "profileUrl": "https://unsplash.com/@coopery"
+        "name": "julien Tromeur",
+        "photoUrl": "https://unsplash.com/photos/a-white-toy-with-a-black-nose-6UDansS-rPI",
+        "profileUrl": "https://unsplash.com/@julientromeur"
       }
     }
   ]
