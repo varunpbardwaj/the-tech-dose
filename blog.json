@@ -4,7 +4,7 @@
     "category": "Artificial Intelligence",
     "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
     "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
-    "publishedAt": "2026-07-30",
+    "publishedAt": "2026-07-29",
     "readTime": "8 min read",
     "author": "Varun Bardwaj",
     "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
@@ -17,29 +17,63 @@
     }
   },
   "latestPosts": [
-      {
-        "slug": "beyond-chatbots-generative-ai-ai-agents-agentic-ai",
-        "category": "Artificial Intelligence",
-        "title": "Beyond Chatbots: Understanding Generative AI, AI Agents, and Agentic AI",
-        "description": "A guide to understanding the evolution of artificial intelligence, from content creation with Generative AI to autonomous workflows powered by AI Agents and Agentic AI systems.",
-        "publishedAt": "2026-07-30",
-        "readTime": "10 min read",
-        "author": "Varun Bardwaj",
-        "contentPath": "ai/beyond-chatbots-generative-ai-ai-agents-agentic-ai.mdx",
-        "coverImage": "https://images.unsplash.com/photo-1718241905696-cb34c2c07bed?q=80&w=1856",
-        "imageAlt": "A close-up view of a keyboard representing artificial intelligence, programming, and modern technology",
-        "imageCredit": {
-          "name": "BoliviaInteligente",
-          "photoUrl": "https://unsplash.com/photos/a-black-keyboard-with-a-blue-button-on-it-kECRXz0m42A",
-          "profileUrl": "https://unsplash.com/@boliviainteligente"
-        }
-      },
-      {
+    {
+      "slug": "the-death-of-prompting-why-developers-need-to-start-thinking-in-loops",
+      "category": "Artificial Intelligence",
+      "title": "The Death of Prompting: Why Developers Need to Start Thinking in Loops",
+      "description": "Explore how loop engineering is changing AI development by replacing repeated prompting with autonomous systems that plan, act, verify, and iterate toward measurable goals.",
+      "publishedAt": "2026-07-30",
+      "readTime": "12 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/the-death-of-prompting-why-developers-need-to-start-thinking-in-loops.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1606778303039-9fc1488b1d8a?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "Blue and white abstract light illustration representing AI systems, automation, and connected feedback loops",
+      "imageCredit": {
+        "name": "Compare Fibre",
+        "photoUrl": "https://unsplash.com/photos/blue-and-white-light-illustration-9HGPvHThNME",
+        "profileUrl": "https://unsplash.com/@comparefibre"
+      }
+    },
+    {
+      "slug": "ai-native-engineering-building-better-software-without-losing-engineering-discipline",
+      "category": "Artificial Intelligence",
+      "title": "AI-Native Engineering: Building Better Software Without Losing Engineering Discipline",
+      "description": "A practical guide to building software with AI while maintaining strong engineering practices, clear ownership, reliable testing, and thoughtful technical decisions.",
+      "publishedAt": "2026-07-30",
+      "readTime": "12 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/ai-native-engineering-building-better-software-without-losing-engineering-discipline.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1770233621425-5d9ee7a0a700?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "AI chip technology concept shown as a futuristic 3D render",
+      "imageCredit": {
+        "name": "Zach M",
+        "photoUrl": "https://unsplash.com/photos/artificial-intelligence-concept-within-a-human-head-7F9PhBM1gFM",
+        "profileUrl": "https://unsplash.com/@zachmmalin"
+      }
+    },
+    {
+      "slug": "beyond-chatbots-generative-ai-ai-agents-agentic-ai",
+      "category": "Artificial Intelligence",
+      "title": "Beyond Chatbots: Understanding Generative AI, AI Agents, and Agentic AI",
+      "description": "A guide to understanding the evolution of artificial intelligence, from content creation with Generative AI to autonomous workflows powered by AI Agents and Agentic AI systems.",
+      "publishedAt": "2026-07-29",
+      "readTime": "10 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/beyond-chatbots-generative-ai-ai-agents-agentic-ai.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1718241905696-cb34c2c07bed?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A close-up view of a keyboard representing artificial intelligence, programming, and modern technology",
+      "imageCredit": {
+        "name": "BoliviaInteligente",
+        "photoUrl": "https://unsplash.com/photos/a-black-keyboard-with-a-blue-button-on-it-kECRXz0m42A",
+        "profileUrl": "https://unsplash.com/@boliviainteligente"
+      }
+    },
+    {
       "slug": "beyond-autocomplete-ai-agentic-programming",
       "category": "Artificial Intelligence",
       "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
       "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
-      "publishedAt": "2026-07-30",
+      "publishedAt": "2026-07-29",
       "readTime": "8 min read",
       "author": "Varun Bardwaj",
       "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
@@ -56,16 +90,16 @@
       "category": "Programming",
       "title": "Why Great Developers Never Stop Learning",
       "description": "The habits, fundamentals, and learning strategies that help developers grow throughout their careers.",
-      "publishedAt": "2026-07-29",
+      "publishedAt": "2026-07-28",
       "readTime": "7 min read",
       "author": "Varun Bardwaj",
       "contentPath": "programming/why-great-developers-never-stop-learning.mdx",
       "coverImage": "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?auto=format&fit=crop&w=1600&h=900&q=85",
       "imageAlt": "A developer working with code on a computer",
       "imageCredit": {
-        "name": "Unsplash",
-        "photoUrl": "https://unsplash.com",
-        "profileUrl": "https://unsplash.com"
+        "name": "Compagnons",
+        "photoUrl": "https://unsplash.com/photos/people-sitting-on-chair-in-front-of-computer-monitor-Fa9b57hffnM",
+        "profileUrl": "https://unsplash.com/@sigmund"
       }
     },
     {
@@ -73,16 +107,69 @@
       "category": "Technology",
       "title": "The AI Bubble: A Trillion-Dollar Bet on the Future",
       "description": "How the AI infrastructure boom is reshaping data centers, chips, energy, and the global technology economy.",
-      "publishedAt": "2026-07-29",
+      "publishedAt": "2026-07-28",
       "readTime": "10 min read",
       "author": "Varun Bardwaj",
       "contentPath": "technology/the-ai-bubble-a-trillion-dollar-bet-on-the-future.mdx",
-      "coverImage": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&h=900&q=85",
-      "imageAlt": "A network of cables representing the infrastructure powering modern computing and artificial intelligence systems",
+      "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A close-up of computer hardware representing modern software engineering and artificial intelligence",
       "imageCredit": {
-        "name": "Taylor Vick",
-        "photoUrl": "https://unsplash.com/photos/cable-network-M5tzZtFCOfs",
-        "profileUrl": "https://unsplash.com"
+        "name": "Alexandre Debiève",
+        "photoUrl": "https://unsplash.com/photos/macro-photography-of-black-circuit-board-FO7JIlwjOtU",
+        "profileUrl": "https://unsplash.com/@alexkixa"
+      }
+    }
+  ],
+  "authorPickedPosts": [
+    {
+      "slug": "the-ai-bubble-a-trillion-dollar-bet-on-the-future",
+      "category": "Technology",
+      "title": "The AI Bubble: A Trillion-Dollar Bet on the Future",
+      "description": "How the AI infrastructure boom is reshaping data centers, chips, energy, and the global technology economy.",
+      "publishedAt": "2026-07-28",
+      "readTime": "10 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "technology/the-ai-bubble-a-trillion-dollar-bet-on-the-future.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A close-up of computer hardware representing modern software engineering and artificial intelligence",
+      "imageCredit": {
+        "name": "Alexandre Debiève",
+        "photoUrl": "https://unsplash.com/photos/macro-photography-of-black-circuit-board-FO7JIlwjOtU",
+        "profileUrl": "https://unsplash.com/@alexkixa"
+      }
+    },
+    {
+      "slug": "ai-native-engineering-building-better-software-without-losing-engineering-discipline",
+      "category": "Artificial Intelligence",
+      "title": "AI-Native Engineering: Building Better Software Without Losing Engineering Discipline",
+      "description": "A practical guide to building software with AI while maintaining strong engineering practices, clear ownership, reliable testing, and thoughtful technical decisions.",
+      "publishedAt": "2026-07-30",
+      "readTime": "12 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/ai-native-engineering-building-better-software-without-losing-engineering-discipline.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1770233621425-5d9ee7a0a700?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "AI chip technology concept shown as a futuristic 3D render",
+      "imageCredit": {
+        "name": "Zach M",
+        "photoUrl": "https://unsplash.com/photos/artificial-intelligence-concept-within-a-human-head-7F9PhBM1gFM",
+        "profileUrl": "https://unsplash.com/@zachmmalin"
+      }
+    },
+    {
+      "slug": "beyond-chatbots-generative-ai-ai-agents-agentic-ai",
+      "category": "Artificial Intelligence",
+      "title": "Beyond Chatbots: Understanding Generative AI, AI Agents, and Agentic AI",
+      "description": "A guide to understanding the evolution of artificial intelligence, from content creation with Generative AI to autonomous workflows powered by AI Agents and Agentic AI systems.",
+      "publishedAt": "2026-07-29",
+      "readTime": "10 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/beyond-chatbots-generative-ai-ai-agents-agentic-ai.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1718241905696-cb34c2c07bed?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A close-up view of a keyboard representing artificial intelligence, programming, and modern technology",
+      "imageCredit": {
+        "name": "BoliviaInteligente",
+        "photoUrl": "https://unsplash.com/photos/a-black-keyboard-with-a-blue-button-on-it-kECRXz0m42A",
+        "profileUrl": "https://unsplash.com/@boliviainteligente"
       }
     }
   ]
