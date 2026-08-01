@@ -1,22 +1,39 @@
 {
   "featuredPost": {
-    "slug": "beyond-autocomplete-ai-agentic-programming",
+    "slug": "did-openai-gpt-hack-hugging-face",
     "category": "Artificial Intelligence",
-    "title": "Beyond Autocomplete: The Rise of AI Agentic Programming",
-    "description": "How AI coding agents are changing the way developers explore, build, test, and maintain software.",
-    "publishedAt": "2026-07-29",
+    "title": "Did OpenAI's GPT “Hack” Hugging Face? What the Viral Claim Reveals About AI Agents and Cybersecurity",
+    "description": "An evidence-based look at the viral claim involving OpenAI, GPT, and Hugging Face and what it reveals about AI agents, cybersecurity, containment, and autonomous systems.",
+    "publishedAt": "2026-07-31",
     "readTime": "8 min read",
     "author": "Varun Bardwaj",
-    "contentPath": "ai/beyond-autocomplete-ai-agentic-programming.mdx",
-    "coverImage": "https://images.unsplash.com/photo-1666597107756-ef489e9f1f09?auto=format&fit=crop&w=1600&h=900&q=85",
+    "contentPath": "ai/did-openai-gpt-hack-hugging-face.mdx",
+    "coverImage": "https://images.unsplash.com/photo-1654498770512-c9045a3b6be0?auto=format&fit=crop&w=1600&h=900&q=85",
     "imageAlt": "A group of white robots sitting on top of laptops",
     "imageCredit": {
-      "name": "julien Tromeur",
-      "photoUrl": "https://unsplash.com/photos/a-white-toy-with-a-black-nose-6UDansS-rPI",
-      "profileUrl": "https://unsplash.com/@julientromeur"
+      "name": "kartik programmer",
+      "photoUrl": "https://unsplash.com/photos/a-person-sitting-at-a-desk-in-a-dark-room-JrEHwkPIurA",
+      "profileUrl": "https://unsplash.com/photos/a-person-sitting-at-a-desk-in-a-dark-room-JrEHwkPIurA"
     }
   },
   "latestPosts": [
+    {
+      "slug": "did-openai-gpt-hack-hugging-face",
+      "category": "Artificial Intelligence",
+      "title": "Did OpenAI's GPT “Hack” Hugging Face? What the Viral Claim Reveals About AI Agents and Cybersecurity",
+      "description": "An evidence-based look at the viral claim involving OpenAI, GPT, and Hugging Face and what it reveals about AI agents, cybersecurity, containment, and autonomous systems.",
+      "publishedAt": "2026-07-31",
+      "readTime": "8 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "ai/did-openai-gpt-hack-hugging-face.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1654498770512-c9045a3b6be0?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "A group of white robots sitting on top of laptops",
+      "imageCredit": {
+        "name": "kartik programmer",
+        "photoUrl": "https://unsplash.com/photos/a-person-sitting-at-a-desk-in-a-dark-room-JrEHwkPIurA",
+        "profileUrl": "https://unsplash.com/photos/a-person-sitting-at-a-desk-in-a-dark-room-JrEHwkPIurA"
+      }
+    },
     {
       "slug": "the-death-of-prompting-why-developers-need-to-start-thinking-in-loops",
       "category": "Artificial Intelligence",
