@@ -1,0 +1,305 @@
+AI-assisted software development has evolved far beyond simple autocomplete. Today’s coding agents can understand context, generate multi-file changes, and help build entire features faster than ever before. But without structure, that power can quickly turn into messy code, broken architecture, and inconsistent implementation.
+
+The solution is not to avoid AI. It is to **guide AI with clear project structure, persistent rules, and reusable workflows**.
+
+## What is vibecoding?
+
+“Vibecoding” is the informal style of letting AI generate code with minimal planning or constraints. It can feel fast in the short term, but it often creates long-term problems: duplicated logic, unclear abstractions, poor testing, and architecture that slowly drifts away from the original intent.
+
+A better approach is to treat AI like a highly capable assistant that still needs a blueprint.
+
+## Why AI coding needs structure
+
+AI models are strong at pattern recognition, but they do not truly know your project unless you provide reliable context. If the agent does not understand your architecture, data flow, naming conventions, or constraints, it will improvise.
+
+That is why successful AI-assisted development depends on four things:
+
+- A machine-readable product specification.
+- Persistent coding rules.
+- Reusable task-specific skills.
+- Incremental implementation with validation.
+
+## Build an AI-native PRD
+
+A traditional PRD is written for human readers. An **AI-native PRD** is designed to be easy for coding agents to interpret, so they do not need to guess project intent.
+
+Instead of one long document, break the product definition into smaller Markdown files.
+
+### Recommended PRD files
+
+- `project-overview.md`: vision, goals, non-goals, and success criteria.
+- `tech-stack.md`: chosen frameworks, libraries, and architectural rationale.
+- `user-flow.md`: step-by-step user journeys and data movement.
+- `features/<feature-name>.md`: detailed requirements, edge cases, and acceptance criteria.
+
+### Example: project overview
+
+```md
+# Project Overview
+
+## Vision
+Build a lightweight task management app for small teams.
+
+## Goals
+- Allow users to create tasks in under 10 seconds.
+- Sync tasks in real time.
+- Support offline editing.
+
+## Non-goals
+- No complex Gantt charts.
+- No enterprise permission matrix in v1.
+
+## Success Criteria
+- 95% of task creation flows complete successfully.
+- Initial page load under 2 seconds on mid-range devices.
+```
+
+This type of file keeps the AI aligned with the product’s actual goals and reduces scope creep.
+
+### Example: tech stack rationale
+
+```md
+# Tech Stack
+
+## Frontend
+- React with TypeScript
+- Vite for local development
+- Tailwind CSS for styling
+
+## Backend
+- Node.js with Express
+- PostgreSQL for persistent storage
+
+## Why this stack
+- React fits the existing component structure.
+- TypeScript reduces interface mistakes.
+- PostgreSQL supports transactional consistency.
+
+## Do not use
+- Redux unless the state becomes truly complex.
+- Class components.
+- Unapproved UI libraries.
+```
+
+The “do not use” section is especially valuable because AI often defaults to common libraries unless you explicitly constrain it.
+
+## Use Cursor rules to enforce standards
+
+Cursor rules, especially modular `.mdc` files, act like the operating manual for your codebase. They help the AI follow architecture and style conventions every time it writes or edits code.
+
+### Rule types in Cursor
+
+- **Always Apply:** loaded into every session for global conventions.
+- **Auto-attached:** triggered by file patterns like `src/**/*.test.ts`.
+- **Agent-selected:** pulled in when the AI determines they are relevant.
+
+### Example: always-apply rule for errors
+
+```md
+# Rule: Error Handling
+
+- Always return typed errors from service functions.
+- Never swallow exceptions silently.
+- Use the shared `AppError` class for domain failures.
+- Surface user-facing errors through the notification system.
+```
+
+### Example: auto-attached test rule
+
+```md
+# Rule: Test Standards
+
+When editing test files:
+- Use arrange-act-assert structure.
+- Mock only external dependencies.
+- Prefer behavior tests over implementation tests.
+- Follow the patterns in `src/components/Button.test.tsx`.
+```
+
+### Example: canonical file reference
+
+```md
+# Rule: Form Pattern
+
+- Use `src/components/forms/UserForm.tsx` as the canonical reference.
+- Match its validation, accessibility, and state management patterns.
+- Do not introduce a second form architecture unless approved.
+```
+
+This is more effective than vague instructions like “keep it consistent.”
+
+## Use AGENTS.md and SKILLS.md
+
+Persistent context should not live only in chat. Two useful files help keep the AI aligned across sessions: `AGENTS.md` and `SKILLS.md`.
+
+### AGENTS.md
+
+`AGENTS.md` is the machine-readable README for your repository. It usually contains build commands, testing requirements, code style rules, and project-specific constraints.
+
+```md
+# AGENTS.md
+
+## Build
+- Run `npm run build` before merging.
+
+## Test
+- Run `npm test` for unit tests.
+- Run `npm run test:e2e` for feature changes.
+
+## Do not
+- Do not rename environment variables without approval.
+- Do not refactor authentication without updating tests.
+
+## Notes
+- This repo uses a monorepo structure.
+- Subpackages may have their own `AGENTS.md` files.
+```
+
+### SKILLS.md
+
+`SKILLS.md` is useful for reusable workflows that should load only when relevant. For example:
+
+- code review.
+- migration review.
+- smoke testing.
+- release checklist.
+
+```md
+# Skill: Database Migration Review
+
+## When to use
+Use this skill when modifying schemas, indexes, or seed data.
+
+## Checklist
+- Check rollback path.
+- Confirm the migration is idempotent.
+- Verify foreign key order.
+- Update documentation if schema changes.
+
+## Reference
+- See `migrations/001_initial.sql`.
+```
+
+This keeps specialized instructions out of the main context until they are actually needed.
+
+## Apply the CSO framework
+
+The **CSO framework** helps prevent hallucinations by improving the AI’s context, structure, and organization.
+
+### Context
+
+Provide persistent documentation such as:
+
+- API endpoints.
+- database schemas.
+- milestones.
+- feature notes.
+
+Example schema:
+
+```md
+# DB Schema
+
+## tasks
+- id: uuid
+- title: text, required
+- description: text, optional
+- status: enum: open | in_progress | done
+- created_at: timestamp
+```
+
+If the AI knows the schema, it is far less likely to invent unsupported fields.
+
+### Structure
+
+Break implementation into small, testable steps.
+
+A good sequence is:
+
+1. Update types.
+2. Update service logic.
+3. Update UI.
+4. Add tests.
+5. Validate behavior.
+
+Instead of asking the AI to “build the whole feature,” ask it to implement one focused piece at a time.
+
+### Organization
+
+Use the right model for the right job.
+
+- Use reasoning-focused models for architecture and planning.
+- Use implementation-focused models for code generation and refactoring.
+
+This separation improves output quality because different tasks require different strengths.
+
+## A practical AI coding workflow
+
+Here is a workflow that works well for AI-assisted development:
+
+1. Start with an AI-native PRD.
+2. Add `AGENTS.md` for operational instructions.
+3. Add modular Cursor rules for architecture and conventions.
+4. Add `SKILLS.md` for repeatable specialized tasks.
+5. Implement features in small increments.
+6. Verify each change with tests and examples.
+
+### Example workflow: save draft feature
+
+Instead of telling the AI:
+
+> Build save draft.
+
+Provide a structured request:
+
+- Define the user flow for draft creation.
+- Specify API behavior for saving and loading drafts.
+- Describe UI states for autosave, manual save, and failure.
+- Add rules for form validation and error handling.
+- Use a testing skill to verify persistence and recovery.
+
+That approach turns AI from a guessing engine into a constrained implementation partner.
+
+## Sample feature brief
+
+```md
+# Feature: Save Draft
+
+## Goal
+Allow users to save partially completed forms without submitting them.
+
+## Requirements
+- Save manually with a button.
+- Autosave every 15 seconds after a change.
+- Restore the latest draft on page load.
+- Do not autosave if the form is invalid.
+
+## Acceptance Criteria
+- Draft data persists after refresh.
+- Draft can be deleted manually.
+- Success and failure states are visible.
+
+## Performance
+- Saving must not block typing.
+- Autosave requests must be debounced.
+```
+
+This level of detail gives the AI a clear target and reduces implementation errors.
+
+## Best practices for AI-assisted development
+
+To keep AI-generated code clean and maintainable:
+
+- Keep rules short and atomic.
+- Use real code examples from the repository.
+- Avoid too many always-apply rules.
+- Store long-lived context in Markdown files.
+- Implement features in small, testable steps.
+
+If the AI might guess wrong, document it clearly.
+
+## Final thoughts
+
+The shift from vibecoding to architectural excellence is really a shift from improvisation to governance. AI works best when it operates inside a documented system with stable context, modular rules, and reusable workflows.
+
+When you build that system, AI becomes a force multiplier instead of a source of cleanup. You spend less time fixing broken assumptions and more time delivering features that actually fit the architecture.

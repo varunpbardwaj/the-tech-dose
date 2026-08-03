@@ -18,6 +18,23 @@
   },
   "latestPosts": [
     {
+      "slug": "mastering-the-ai-coding-workflow-from-vibecoding-to-architectural-excellence",
+      "category": "Programming",
+      "title": "Mastering the AI Coding Workflow: From Vibecoding to Architectural Excellence",
+      "description": "Learn how to use AI coding agents effectively with AI-native PRDs, Cursor rules, AGENTS.md, SKILLS.md, and the CSO framework for cleaner architecture and better code quality.",
+      "publishedAt": "2026-08-03",
+      "readTime": "12 min read",
+      "author": "Varun Bardwaj",
+      "contentPath": "programming/mastering-the-ai-coding-workflow-from-vibecoding-to-architectural-excellence.mdx",
+      "coverImage": "https://images.unsplash.com/photo-1746286720965-cccf57e56c68?q=80&w=2070?auto=format&fit=crop&w=1600&h=900&q=85",
+      "imageAlt": "AI chip technology concept shown as a futuristic 3D render",
+      "imageCredit": {
+        "name": "Aerps.com",
+        "photoUrl": "https://unsplash.com/photos/laptop-displays-the-ai-code-editor-website-wjFOjA2zXy8",
+        "profileUrl": "https://unsplash.com/@almoya"
+      }
+    },
+    {
       "slug": "did-openai-gpt-hack-hugging-face",
       "category": "Artificial Intelligence",
       "title": "Did OpenAI's GPT “Hack” Hugging Face? What the Viral Claim Reveals About AI Agents and Cybersecurity",
